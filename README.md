@@ -3,42 +3,42 @@
 Aplicativo Web el cual permite tanto el registro como la autenticación e inicio de sesión a usuarios. Estos ultimos pueden crear, editar y eliminar sus propias publicaciones. Asimismo, permite la visualización individual de cada publicación.
 
 ## Características
+![Preview](./img//preview.png)
 
 ### Caraterísticas Principales
 
-    - Publicaciones: Crear, Editar y Eliminar (Solo por su respectivo autor).
-    - Usuarios: Registrar, Iniciar Sesión y Cerrar de Sesión.
-    - Autenticación: Autorizar al usuario de acceder a los recursos del aplicativo
+- Publicaciones: Crear, Editar y Eliminar (Solo por su respectivo autor).
+- Usuarios: Registrar, Iniciar Sesión y Cerrar de Sesión.
+- Autenticación: Autorizar al usuario de acceder a los recursos del aplicativo
 
 ### Tecnologías
 
-    - Python: venv, pip
-    - JavaScript: Node.JS, Vite
-    - PostgreSQL
-
-## Preview
-
-![Preview](./preview.png)
+· Python: venv, pip
+· JavaScript: Node.JS, Vite
+· PostgreSQL
 
 ## Stack Tecnológico
 
 ### Backend
 
-    - FastAPI
-    - SQLAlchemy
-    - Pydantic
-    - JWT
+· FastAPI
+· SQLAlchemy
+· Pydantic
+· JWT
+
+#### Arquitectura de Base de Datos (PostgreSQL)
+![Diagrama Entidad Relación](./img/der.png "Diagrama Entidad Relación")
 
 ### Frontend
 
-    - React
-    - React Bootstrap
-    - React Router / DOM
-    - Axios
+· React
+· React Bootstrap
+· React Router / DOM
+· Axios
 
 ## Instalación con Docker
 ### Prerrequisitos
-    - Docker Desktop instalado y abierto en su maquina
+- Docker Desktop instalado y abierto en su maquina
 
 ### Instalación
 
@@ -51,12 +51,12 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
     docker compose build --no-cache
     
 #### 4. Navegar en:
-    - Frontend: http://localhost:5173
-    - Backend: http://localhost:8000
-    - Documentación: http://localhost:8000/docs ||  http://localhost:8000/redoc
+→ Frontend: http://localhost:5173
+→ Backend: http://localhost:8000
+→ Documentación: http://localhost:8000/docs ||  http://localhost:8000/redoc
 
 ## Usuarios de Prueba
-    contraseña global: 
+    contraseña: 
         user123
     usuarios registrados:
         - regUser01
