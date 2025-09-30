@@ -56,6 +56,9 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 - Documentación: http://localhost:8000/docs ||  http://localhost:8000/redoc
 
 ## Usuarios de Prueba
+El aplicativo realiza las operaciones CRUD de manera normal. En caso de inconvenientes con los usuarios de prueba, simplemente y, a su antojo, puede registrarse e iniciar sesión, asmimismo crear, editar y eliminar publicaciones.
+
+En el volumen se guardó datos de usuarios y publicaciones, por lo que puede iniciar sesión con los siguientes usuarios y contraseña
 - contraseña: 
     - user123
 - usuarios registrados:
