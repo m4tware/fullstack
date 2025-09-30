@@ -1,0 +1,42 @@
+services:
+  db:
+    image: postgres:15
+    container_name: blog_db
+    restart: always
+    environment:
+      POSTGRES_USER: bloguser
+      POSTGRES_PASSWORD: blogpswd
+      POSTGRES_DB: blogdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: blog_backend
+    restart: always
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://bloguser:blogpswd@db:5432/blogdb
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build: ./frontend
+    container_name: blog_frontend
+    restart: always
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"
+    #volumes:
+    #  - ./frontend:/app
+    environment:
+      VITE_ API_BASE: http://localhost:8000
+
+volumes:
+  postgres_data:
