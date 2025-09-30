@@ -47,7 +47,6 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 
 #### 3. Ejecutar en consola:
     docker compose build --no-cache
-    docker compose up
     
 #### 4. Navegar en:
     - Frontend: http://localhost:5173
