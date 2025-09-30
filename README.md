@@ -57,7 +57,7 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 
 ## Usuarios de Prueba
 - contraseña: 
-    user123
+    - user123
 - usuarios registrados:
     - regUser01
     - regUser02
