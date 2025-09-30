@@ -18,6 +18,8 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 
 ## Preview
 
+(preview.png)
+
 ## Stack Tecnológico
 
 ### Backend
@@ -36,7 +38,7 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 
 ## Instalación con Docker
 ### Prerrequisitos
-    - Docker Dsektop instalado y abierto en su maquina
+    - Docker Desktop instalado y abierto en su maquina
 
 ### Instalación
 
@@ -52,3 +54,11 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
     - Frontend: http://localhost:5173
     - Backend: http://localhost:8000
     - Documentación: http://localhost:8000/docs ||  http://localhost:8000/redoc
+
+## Usuarios de Prueba
+    contraseña global: 
+        user123
+    usuarios registrados:
+        - regUser01
+        - regUser02
+        - regUser03
