@@ -64,7 +64,7 @@ Para el apartado dirigido al acceso del usuario, ambas funcionalidades reciben u
 ![](./img/register.png 'Registro')
 ![](./img/login.png 'Inicio Sesión')
 
-Es importante reslatar que, con fines demostrativos, el tiempo limite de expiración para ls sesión del usuario, es de 5 minutos. Pasado este tiempo se debe volver a iniciar sesión.
+**Es importante reslatar que, con fines demostrativos, el tiempo limite de expiración para ls sesión del usuario, es de 5 minutos. Pasado este tiempo se debe volver a iniciar sesión.**
 
 ## Eliminación, Edición y Creación de Publicaciones
 Las publicaciones a nombre del usuario autenticado, pueden ser tanto eliminadas como editadas:
