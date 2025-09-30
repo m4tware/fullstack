@@ -18,7 +18,7 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 
 ## Preview
 
-(preview.png)
+(./preview.png)
 
 ## Stack Tecnológico
 
