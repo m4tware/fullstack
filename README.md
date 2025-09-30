@@ -13,28 +13,28 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 
 ### Tecnologías
 
-· Python: venv, pip
-· JavaScript: Node.JS, Vite
-· PostgreSQL
+- Python: venv, pip
+- JavaScript: Node.JS, Vite
+- PostgreSQL
 
 ## Stack Tecnológico
 
 ### Backend
 
-· FastAPI
-· SQLAlchemy
-· Pydantic
-· JWT
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- JWT
 
 #### Arquitectura de Base de Datos (PostgreSQL)
 ![Diagrama Entidad Relación](./img/der.png "Diagrama Entidad Relación")
 
 ### Frontend
 
-· React
-· React Bootstrap
-· React Router / DOM
-· Axios
+- React
+- React Bootstrap
+- React Router / DOM
+- Axios
 
 ## Instalación con Docker
 ### Prerrequisitos
@@ -51,9 +51,9 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
     docker compose build --no-cache
     
 #### 4. Navegar en:
-→ Frontend: http://localhost:5173
-→ Backend: http://localhost:8000
-→ Documentación: http://localhost:8000/docs ||  http://localhost:8000/redoc
+- Frontend: http://localhost:5173
+- Backend: http://localhost:8000
+- Documentación: http://localhost:8000/docs ||  http://localhost:8000/redoc
 
 ## Usuarios de Prueba
     contraseña: 
