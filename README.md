@@ -27,7 +27,7 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 - JWT
 
 #### Arquitectura de Base de Datos (PostgreSQL)
-![Diagrama Entidad Relación](./img/der.png "Diagrama Entidad Relación")
+![Diagrama Entidad Relación](./img/der.png 'Diagrama Entidad Relación')
 
 ### Frontend
 
@@ -54,6 +54,37 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 - Frontend: http://localhost:5173
 - Backend: http://localhost:8000
 - Documentación: http://localhost:8000/docs ||  http://localhost:8000/redoc
+
+## Manual Usuario
+
+### Registro e Inicio de Sesión
+
+Para el apartado dirigido al acceso del usuario, ambas funcionalidades reciben un nombre de usuario y una contraseña(repetir esta última en caso de registro). En caso de registro efectivo, se solicita inicio de sesión. Al iniciar sesión, se envía al índice del Blog:
+
+![](./img/register.png 'Registro')
+![](./img/login.png 'Inicio Sesión')
+
+Es importante reslatar que, con fines demostrativos, el tiempo limite de expiración para ls sesión del usuario, es de 5 minutos. Pasado este tiempo se debe volver a iniciar sesión.
+
+## Eliminación, Edición y Creación de Publicaciones
+Las publicaciones a nombre del usuario autenticado, pueden ser tanto eliminadas como editadas:
+
+![](./img/edit_delete.png 'Edición y Eliminación')
+
+Si se desea editar, el aplicativo solicita un formulario donde pide como parámetros un nuevo titulo y/o contenido para la publicación, campos opcionales segun el usuario requiera.
+
+Para crear una nueva Publicación, se debe interactuar con el botón mostrado en la parte superior del Blog(recordar que debe estar autenticado):
+
+![](./img/create_button.png 'Boton Creación')
+
+Posteriormente, se ingresa como parámetros un Titulo y un Contenido
+![](./img/create.png 'Creación')
+
+## Consulta individual de Publicación
+
+Al dar click sobre el titulo de una publicación, está se expandirá, permitiendo una vista mas amplia de la misma:
+
+![](./img/visual.png 'Consultar')
 
 ## Usuarios de Prueba
 El aplicativo realiza las operaciones CRUD de manera normal. En caso de inconvenientes con los usuarios de prueba, simplemente y, a su antojo, puede registrarse e iniciar sesión, asmimismo crear, editar y eliminar publicaciones.
