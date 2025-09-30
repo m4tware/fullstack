@@ -56,9 +56,9 @@ Aplicativo Web el cual permite tanto el registro como la autenticación e inicio
 - Documentación: http://localhost:8000/docs ||  http://localhost:8000/redoc
 
 ## Usuarios de Prueba
-    contraseña: 
-        user123
-    usuarios registrados:
-        - regUser01
-        - regUser02
-        - regUser03
+- contraseña: 
+    user123
+- usuarios registrados:
+    - regUser01
+    - regUser02
+    - regUser03
